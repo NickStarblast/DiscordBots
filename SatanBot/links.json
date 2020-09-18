@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "title": "U-Series",
+        "mode": "Team mode",
+        "author": "Finalizer",
+        "link": "https://pastebin.com/2K8n8wGp"
+    },
+    {
+        "id": 1,
+        "title": "Alien Intrusion",
+        "mode": "Team mode",
+        "author": "Goldman",
+        "link": "https://pastebin.com/atKnxfJv"
+    },
+    {
+        "id": 2,
+        "title": "Nautic-Series",
+        "mode": "Team mode",
+        "author": "Goldman",
+        "link": "https://pastebin.com/AUAAuLGA"
+    },
+    {
+        "id": 3,
+        "title": "Battle-Royale",
+        "mode": "Custom",
+        "author": "Neuronality",
+        "link": "https://github.com/pmgl/starblast-modding/blob/master/mods/battleroyale.js"
+    },
+    {
+        "id": 4,
+        "title": "Racing",
+        "mode": "Racing mod",
+        "author": "PMGL",
+        "link": "https://github.com/pmgl/starblast-modding/blob/master/mods/racing.js"
+    },
+    {
+        "id": 5,
+        "title": "SRC (StarblastRacingChampionship)",
+        "mode": "Racing mod",
+        "author": "Goldman, Notus",
+        "link": "https://github.com/GoldmanAerospace/SRC-All-track-codes-/"
+    },
+    {
+        "id": 6,
+        "title": "Prototypes",
+        "mode": "Custom",
+        "author": "Uranus",
+        "link": "https://bitbucket.org/strutinsky5386/starblast-prototypes/src/default/prototypes.js"
+    },
+    {
+        "id": 7,
+        "title": "Pirate Mod",
+        "mode": "Custom",
+        "author": "Finalizer",
+        "link": "https://github.com/Bhpsngum/starblast/blob/master/mods/Pirate_Mod.js"
+    },
+    {
+        "id": 8,
+        "title": "Lunatic Mod",
+        "mode": "Custom",
+        "author": "Kirito/Absolute Kun",
+        "link": "https://github.com/Bhpsngum/starblast/blob/master/mods/Lunatic_Mod.js"
+    },
+    {
+        "id": 9,
+        "title": "Rumble Mod",
+        "mode": "Custom",
+        "author": "45rfew/Money",
+        "link": "https://github.com/45rfew/Starblast-mods-n-objs/blob/master/Mods/Rumble%20mod.js"
+    }
+]
