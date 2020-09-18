@@ -1,7 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
 const fs = require('fs')
-const ytdl = require('ytdl-core')
 
 function getUserFromMention(mention) {
 	if (!mention) return;
@@ -31,12 +30,6 @@ var convertNl = function(jsonString) {
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}.`)
-  client.user.setPresence({
-    status: "online",
-    game: {
-        name: "?help",
-        type: "STREAMING"
-    }
 });
 })
 
@@ -48,18 +41,21 @@ client.on('message', async msg => {
   if (args[0] === '?hi' || args[0] === '?hello') {
     msg.channel.send('Hello <@' + msg.author.id + '>!') ;
   }
+  //Game Link Posting Channel
   if(msg.channel.id === '743859092333789255') {
     if(msg.content.indexOf('starblast.io') == -1) {
       msg.author.send("Oops, please post a game link.");
       msg.delete();
     }
   }
+  //Discord Invite Channel
   if(msg.channel.id === '743859313851891879') {
     if(msg.content.indexOf('discord.gg') == -1) {
       msg.author.send("Oops, please post a discord invite link.");
       msg.delete();
     }
   }
+  //Bot Channel
   if(msg.channel.id === '743900640832389160') {
     if (args[0] === '?help') {
       msg.channel.send({
@@ -94,6 +90,7 @@ client.on('message', async msg => {
       }
     }) ;
     msg.channel.send("WARN: Please switch `Link Previews` to TRUE (User options)") ;
+    //Starblast Plays' rule.
     } else if (args[0] === '?rule') {
       msg.channel.send('**Rule 1**\nNo spam unless in <#743858882492760124>\n\n**Rule 2**\nIf you want to whine about another player then do it in <#743857794544828506>' + 
       '\n\n**Rule 3**\nTry to keep the language somewhat clean. Ignored in <#743857794544828506>\nDon’t offend other members of this server either.\n\n' +
@@ -169,4 +166,4 @@ client.on('message', async msg => {
   }
 })
 
-client.login('NzQzODkzMjU4ODUzNDE2OTgw.XzbSlQ.S4E8in9TklYS4YEquVMWcjsApgQ')
+client.login("YOUR BOT'S TOKEN HERE")
