@@ -2,7 +2,7 @@
 This is my discord bots.
 
 # READ ME
-This is MIT license.
+This is MIT license. Please read "LICENCE".
 
 # My bots
 This is list of my bots.
