@@ -1,8 +1,8 @@
-# DiscordBots
-This is my discord bots.
-
 # READ ME
 This is MIT license. Please read "LICENCE".
+
+# DiscordBots
+This is my discord bots.
 
 # My bots
 This is list of my bots.
