@@ -2,7 +2,7 @@
 These all bots are MIT license. Please check "LICENCE".
 
 # DiscordBots
-These bots are my discord bots.
+These are my discord bots.
 
 # My bots
 This is list of my bots.
