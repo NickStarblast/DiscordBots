@@ -98,10 +98,13 @@ client.on('message', async msg => {
       '\n\n**Rule 3**\nTry to keep the language somewhat clean. Ignored in <#743857794544828506>\nDon’t offend other members of this server either.\n\n' +
       '**Rule 4**\nStay on topic. There is an off topic channel!\n\n**Rule 5**\nNo piracy. This could be things such as sharing ECP codes or other personal paid for items.\n\n' +
       '**Rule 6**\nNo NSFW content. Because why, why would you do that?\n\nFailure to follow rules will result in a warning, being kicked, or even being banned, depending on how bad it is. Saying you didn’t read the rules will only make it worse.');
+    //Version of bot.
     } else if (args[0] === '?version' || args[0] === '?ver' || args[0] === '?v') {
-      msg.reply("\n" + 'Bot Version: 2.21.11' + "\n" + 'Author: ℕ𝕚𝕔𝕜') ;
+      msg.reply("\n" + 'Bot Version: 2.21.12' + "\n" + 'Author: ℕ𝕚𝕔𝕜') ;
+    //Discord invite link.
     } else if (args[0] === '?link') {
       msg.reply("Here you are.\n" + 'https://discord.gg/h7khXe8') ;
+    //Mod list.
     } else if (args[0] === '?mod') {
       try {
         if(args[1])
