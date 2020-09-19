@@ -8,4 +8,4 @@ This is my discord bots.
 This is list of my bots.
 
 You can get source code of this bot. (Node.js)
-- Satan Bot 2.21.11 (in "Starblast Plays" server. It's not OFFICIAL. Owner is SATAN)
+- Satan Bot 2.21.12 (in "Starblast Plays" server. It's not OFFICIAL. Owner is SATAN)
