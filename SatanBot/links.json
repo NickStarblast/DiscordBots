@@ -68,5 +68,12 @@
         "mode": "Custom",
         "author": "45rfew/Money",
         "link": "https://github.com/45rfew/Starblast-mods-n-objs/blob/master/Mods/Rumble%20mod.js"
+    },
+    {
+        "id": 10,
+        "title": "Bot Source",
+        "mode": "Discord Bot",
+        "author": "Nick",
+        "link": "https://github.com/NickStarblast/DiscordBots"
     }
 ]
